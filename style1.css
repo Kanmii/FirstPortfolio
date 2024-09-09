@@ -1,0 +1,1108 @@
+header{
+    display: none;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+}
+
+.navbar{
+    width: 120px;
+    height: 100%;
+    background-color: rgba(128, 0, 128, 0.986);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.navbar a{    
+    color: white;
+    text-decoration: none;
+    /* we use float: left; to make our icons appear in the horizontal axis (slant) and display: block; to make our icons appear on the vertical axis (straight) */
+    display: block;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 3px solid rgba(128, 0, 128, 0.986);
+}
+
+.navbar p{
+    font-size: 12px;
+}
+
+/* How to make the navbar icon and navbar be together on the same line */
+/* .navbar p{
+    display: inline-flex;
+    margin-left: 10px;
+} */
+
+.navbar a:hover{ 
+    background-color: rgba(0, 0, 0, 0.178);
+    color: yellow;
+    transition: ease-in-out 0.3s;
+    border-bottom: 3px solid white;
+}
+
+.navbar .active:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.932);
+    border-bottom: 3px solid yellow;
+}
+
+#img:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.66);
+}
+
+.active{
+    background-color: rgba(0, 0, 0, 0.178);
+}
+
+.img1{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    background-color: rgba(248, 248, 255, 0.801);
+    filter: blur(0.9px);
+}
+
+.main{
+    margin-left: 120px;
+    padding: 0 30px;
+}
+
+#home{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#home h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+#home p{
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+#home img{
+    width: 50%;
+    background-color: rgba(248, 248, 255, 0.801);
+    margin-top: 30px;
+}
+
+#about{
+    color: white;
+    padding: 64px 0;
+}
+
+#about h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.underline{
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+    margin-left: 0;
+}
+
+.about-page p{
+    color: grey;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.about-page h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    padding: 16px 0;
+}
+
+.skills-page h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    padding: 16px 0;
+}
+
+.skills-page p{
+    letter-spacing: 8px;
+}
+
+.white{
+    color: black;
+    background-color: whitesmoke;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.dark-grey{
+    height: 30px;
+    width: 70%;
+    background-color: rgba(128, 0, 128, 0.986);
+}
+
+.dark-grey1{
+    height: 30px;
+    width: 90%;
+    background-color: rgba(128, 0, 128, 0.986);
+}
+
+.dark-grey2{
+    height: 30px;
+    width: 80%;
+    background-color: rgba(128, 0, 128, 0.986);
+}
+
+.projects{
+    color: black;
+    background-color: whitesmoke;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0;
+    padding: 16px 0;
+}
+
+.projects :hover{
+    box-shadow: 5px 5px 10px white;
+}
+
+.projects .style{
+    font-size: 26px;
+    margin: 0;
+}
+
+.projects p{
+    color: rgba(14, 13, 13, 0.603);
+    font-size: 16px;
+    letter-spacing: 0;
+    margin-top: 0;
+}
+
+.partners{
+    width: 25%;
+    border-bottom: 10px solid whitesmoke;
+    border-left: 10px solid whitesmoke;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.projects-done{
+    width: 25%;
+    border-bottom: 10px solid whitesmoke;
+    border-right: 10px solid whitesmoke;
+    padding-top: 20px;
+    padding-right: 25px;
+}
+
+.happy-clients{
+    width: 25%;
+    border-bottom: 10px solid whitesmoke;
+    border-left: 10px solid whitesmoke;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.meetings{
+    width: 25%;
+    border-bottom: 10px solid whitesmoke;
+    border-right: 10px solid whitesmoke;
+    padding-top: 20px;
+    padding-right: 25px;
+}
+
+.partners:hover{
+    border-left: 10px solid rgba(128, 0, 128, 0.986);
+    border-bottom: 10px solid rgba(128, 0, 128, 0.986);
+}
+
+.projects-done:hover{
+    border-right: 10px solid rgba(128, 0, 128, 0.986);
+    border-bottom: 10px solid rgba(128, 0, 128, 0.986);
+}
+
+.happy-clients:hover{
+    border-left: 10px solid rgba(128, 0, 128, 0.986);
+    border-bottom: 10px solid rgba(128, 0, 128, 0.986);
+}
+
+.meetings:hover{
+    border-right: 10px solid rgba(128, 0, 128, 0.986);
+    border-bottom: 10px solid rgba(128, 0, 128, 0.986);
+}
+
+.download{
+    color: black;
+    background-color: white;
+    margin: 16px 0;
+    padding: 12px 24px;
+    border-style: none;
+    border-color: none;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.download :hover{
+    background-color: rgba(128, 0, 128, 0.986);
+    color: rgba(255, 255, 255, 0.795);    
+    font-size: 12.5px;
+    font-weight: bolder;
+    
+}
+
+.download{
+    font-size: 32px;
+}
+
+.download p{
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.container{
+    font-weight: 500;
+    margin-top: 50px;
+    border-radius: 30px;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#country{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type=text] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type=text]:hover {
+    background-color: white;
+    color: white;
+}
+
+input[type=submit]{
+    border-radius: 15px;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+
+input[type=submit]:hover{
+    color: rgba(128, 0, 128, 0.699);
+    font-weight: bolder;
+    transition: ease-in-out 0.2s;
+}
+
+.services-page h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    padding: 16px 0;
+}
+
+.services-package{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 -20px;
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 15px !important;
+    color: rgba(0, 0, 0, 0.411);
+}
+
+.services-package ul:hover{
+    background-color: white;
+    font-weight: bold;
+ }
+ 
+.services-list{
+    background-color: rgba(211, 211, 211, 0.89);
+    width: 48%;
+    text-align: center;   
+}
+
+.services-list li{
+    list-style-type: none;
+    padding: 16px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.623);
+}
+
+.services-list ul{
+    padding: 0;
+    margin: 0;
+ }
+ 
+ /* .services-list ul :hover,
+ .services-list :hover{
+    background-color: white;
+} */
+
+ .basic-color{
+    background: rgba(128, 0, 128, 0.68);
+    color: rgba(255, 255, 255, 0.411);
+    font-size: 20px;
+    padding: 32px 16px !important;
+ }
+ 
+ .dollar h3{
+    color: rgba(0, 0, 0, 0.465);
+    font-size: 30px;
+    padding: 0;
+ }
+ 
+ .dollar span{
+    color: rgba(0, 0, 0, 0.411);
+    font-size: 20px;
+ }
+ 
+ button{
+    padding: 10px 20px;
+    background-color: rgba(211, 211, 211, 0.89);
+    color: rgba(0, 0, 0, 0.585);
+    border-style: none;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+ }
+ 
+ .sign-up{
+    background-color: rgba(211, 211, 211, 0.623);
+ }
+
+ .sign-up :hover{
+    background-color: rgba(128, 0, 128, 0.986);
+    color: white;
+    transition: ease-in-out 0.2s;
+    font-size: 13px;
+    border-radius: 10px;
+ }
+ 
+ #contact{
+    color: white;
+    padding: 64px 0;
+}
+
+#contact h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.contact-details{
+    margin: 20px 0;
+    padding: 0;
+}
+
+.location-list{
+    display: flex;
+    align-items: center;
+}
+
+.lagos{
+    color: grey;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+
+/* logo */
+#whatsapp{
+ font-size: 30px;
+ margin-right: 10px;
+}
+
+#facebook{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#instagram{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#twitter{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#youtube{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#linkedin{
+    font-size: 30px;
+}
+
+
+/* logo hover effect */
+#whatsapp:hover{
+    font-size: 34px;
+    color: rgba(128, 0, 128, 0.986);
+}
+
+#facebook:hover{
+    font-size: 38px;
+    color: rgba(128, 0, 128, 0.986);
+}
+
+#instagram:hover{
+    font-size: 42px;
+    color: rgba(128, 0, 128, 0.986);
+}
+
+#twitter:hover{
+    font-size: 46px;
+    color: rgba(128, 0, 128, 0.986);
+}
+
+#youtube:hover{
+    font-size: 50px;
+    color: rgba(128, 0, 128, 0.986);
+}
+
+#linkedin:hover{
+    font-size: 54px;
+    color: rgba(128, 0, 128, 0.986);
+}
+
+.contact-socials i{
+    color: grey;
+}
+
+.contact-socials i:hover{
+    color: rgba(128, 128, 128, 0.384);
+}
+
+footer{
+    background-color: rgba(128, 0, 128, 0.986);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-left: 120px;
+}
+
+footer p{
+margin: 0;
+font-size: 13px !important; 
+}
+
+
+
+
+
+/*  THIS IS THE BEGINNING OF MOBILE SCREENS*/
+
+@media screen and (max-width: 450px) {
+    .navbar{
+    display: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(128, 0, 128, 0.986);
+    align-items: center;
+    padding: 10px 20px;
+    padding-left: 53px;
+}
+
+header h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#headerlist{
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: purple;
+    width: 35%;
+    height: auto;
+    padding-top: 10px;
+    z-index: 0;
+    opacity: 0.6;
+}
+
+#headerlist nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: 1s ease;
+}
+
+header a{
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    /* padding-right: 20px;  */
+    border-bottom: 5px solid rgba(128, 0, 128, 0.986);
+}
+
+header p{
+    font-size: 10px;
+}
+
+header a:hover{ 
+    background-color: rgba(0, 0, 0, 0.178);
+    color: yellow;
+    transition: ease-in-out 0.3s;
+    border-bottom: 5px solid white;
+}
+
+header .active{
+    padding: 10px 20px;
+    border-bottom: 5px solid rgba(128, 0, 128, 0.986);
+}
+
+header .active:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.932);
+    border-bottom: 5px solid yellow;
+}
+
+.toggle{
+    color: white;
+    font-size: 25px;
+}
+ body{
+    margin: 0;
+    background-color: black;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    overflow: auto;
+}
+
+
+/* How to make the navbar icon and navbar be together on the same line */
+/* .navbar p{
+    display: inline-flex;
+    margin-left: 10px;
+} */
+
+ /* .navbar IMAGE EFFECT */
+/*#img:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.66);
+}
+
+.active{
+    background-color: rgba(0, 0, 0, 0.178);
+}
+
+.img1{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    filter: blur(0.9px);
+}
+*/
+
+/* end of .navbar IMAGE EFFECT */
+
+
+.main{
+    margin-left: 0;
+    padding: 0 30px;
+}
+
+#home{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#home h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+#home p{
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+#home img{
+    width: 50%;
+    background-color: rgba(248, 248, 255, 0.801);
+    margin-top: 30px;
+}
+
+#about{
+    color: white;
+    padding: 64px 0;
+    padding-bottom: 54px;
+}
+
+#about h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.underline{
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+    margin-left: 0;
+}
+
+.about-page p{
+    color: grey;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.about-page h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    padding: 16px 0;
+}
+
+.skills-page h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    padding: 16px 0;
+}
+
+.skills-page p{
+    letter-spacing: 8px;
+}
+
+.white{
+    color: black;
+    background-color: whitesmoke;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.dark-grey{
+    height: 20px;
+    width: 70%;
+    background-color: rgba(128, 0, 128, 0.986);
+}
+
+.dark-grey1{
+    height: 20px;
+    width: 90%;
+    background-color: rgba(128, 0, 128, 0.986);
+}
+
+.dark-grey2{
+    height: 20px;
+    width: 80%;
+    background-color: rgba(128, 0, 128, 0.986);
+}
+
+.projects{
+    color: black;
+    background-color: whitesmoke;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0;
+    padding: 16px 0;
+}
+
+.projects :hover{
+    box-shadow: 5px 5px 10px white;
+}
+
+.projects .style{
+    font-size: 15px;
+    margin: 0;
+}
+
+.projects p{
+    font-size: 10px;
+    color: rgba(14, 13, 13, 0.603);
+    letter-spacing: 0;
+    margin-top: 0;
+}
+
+.partners{
+    width: 25%;
+    border-bottom: 5px solid whitesmoke;
+    border-left: 5px solid whitesmoke;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.projects-done{
+    width: 25%;
+    border-bottom: 5px solid whitesmoke;
+    border-right: 5px solid whitesmoke;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.happy-clients{
+    width: 25%;
+    border-bottom: 5px solid whitesmoke;
+    border-left: 5px solid whitesmoke;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.meetings{
+    width: 25%;
+    border-bottom: 5px solid whitesmoke;
+    border-right: 5px solid whitesmoke;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.partners:hover{
+    border-left: 5px solid rgba(128, 0, 128, 0.986);
+    border-bottom: 5px solid rgba(128, 0, 128, 0.986);
+}
+
+.projects-done:hover{
+    border-right: 5px solid rgba(128, 0, 128, 0.986);
+    border-bottom: 5px solid rgba(128, 0, 128, 0.986);
+}
+
+.happy-clients:hover{
+    border-left: 5px solid rgba(128, 0, 128, 0.986);
+    border-bottom: 5px solid rgba(128, 0, 128, 0.986);
+}
+
+.meetings:hover{
+    border-right: 5px solid rgba(128, 0, 128, 0.986);
+    border-bottom: 5px solid rgba(128, 0, 128, 0.986);
+}
+
+.download{
+    color: black;
+    background-color: white;
+    margin: 16px 0;
+    padding: 5px 10px;
+    border-style: none;
+    border-color: none;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.download :hover{
+    background-color: rgba(128, 0, 128, 0.986);
+    color: rgba(255, 255, 255, 0.795);    
+    font-size: 12.5px;
+    font-weight: bolder;
+    
+}
+
+.download{
+    font-size: 20px;
+}
+
+.download p{
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.container{
+    font-weight: 500;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    resize: vertical;
+}
+
+#country{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type=text] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type=text]:hover {
+    background-color: white;
+    color: black;
+}
+
+input[type=submit]{
+    border-radius: 15px;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+
+input[type=submit]:hover{
+    color: rgba(128, 0, 128, 0.699);
+    font-weight: bolder;
+    transition: ease-in-out 0.2s;
+}
+
+.services-page h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+    padding: 16px 0;
+}
+
+.services-package{
+    display: block;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 15px !important;
+    color: rgba(0, 0, 0, 0.411);
+}
+
+.services-package ul:hover{
+    background-color: white;
+    font-weight: bold;
+ }
+ 
+.services-list{
+    background-color: rgba(211, 211, 211, 0.89);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;   
+}
+
+.services-list li{
+    list-style-type: none;
+    padding: 16px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.623);
+}
+
+.services-list ul{
+    padding: 0;
+    margin: 0;
+ }
+ 
+ /* .services-list ul :hover,
+ .services-list :hover{
+    background-color: white;
+} */
+
+ .basic-color{
+    background: rgba(128, 0, 128, 0.68);
+    color: rgba(255, 255, 255, 0.411);
+    font-size: 20px;
+    padding: 32px 16px !important;
+ }
+ 
+ .dollar h3{
+    color: rgba(0, 0, 0, 0.465);
+    font-size: 30px;
+    padding: 0;
+ }
+ 
+ .dollar span{
+    color: rgba(0, 0, 0, 0.411);
+    font-size: 20px;
+ }
+ 
+ button{
+    padding: 10px 20px;
+    background-color: rgba(211, 211, 211, 0.89);
+    color: rgba(0, 0, 0, 0.585);
+    border-style: none;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+ }
+ 
+ .sign-up{
+    background-color: rgba(211, 211, 211, 0.623);
+ }
+
+ .sign-up :hover{
+    background-color: rgba(128, 0, 128, 0.986);
+    color: white;
+    transition: ease-in-out 0.2s;
+    font-size: 13px;
+    border-radius: 10px;
+ }
+ 
+ #contact{
+    color: white;
+    padding: 64px 0;
+}
+
+#contact h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.contact-details{
+    margin: 20px 0;
+    padding: 0;
+}
+
+.contact-details p{
+    font-size: 14px;
+}   
+
+.location-list{
+    display: flex;
+    align-items: center;
+}
+
+.location-list p{
+    font: 150px;
+}
+
+.lagos{
+    color: grey;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+
+/* logo */
+#whatsapp{
+    font-size: 30px;
+    margin-right: 10px;
+   }
+   
+   #facebook{
+       font-size: 30px;
+       margin-right: 10px;
+   }
+   
+   #instagram{
+       font-size: 30px;
+       margin-right: 10px;
+   }
+   
+   #twitter{
+       font-size: 30px;
+       margin-right: 10px;
+   }
+   
+   #youtube{
+       font-size: 30px;
+       margin-right: 10px;
+   }
+   
+   #linkedin{
+       font-size: 30px;
+   }   
+
+
+/* logo hover effect */
+#whatsapp:hover{
+    font-size: 34px;
+    color: rgba(128, 0, 128, 0.986);
+}
+
+#facebook:hover{
+    font-size: 38px;
+    color: rgba(128, 0, 128, 0.986);
+}
+
+#instagram:hover{
+    font-size: 42px;
+    color: rgba(128, 0, 128, 0.986);
+}
+
+#twitter:hover{
+    font-size: 46px;
+    color: rgba(128, 0, 128, 0.986);
+}
+
+#youtube:hover{
+    font-size: 50px;
+    color: rgba(128, 0, 128, 0.986);
+}
+
+#linkedin:hover{
+    font-size: 54px;
+    color: rgba(128, 0, 128, 0.986);
+}
+
+.contact-socials i{
+    color: grey;
+}
+
+.contact-socials i:hover{
+    color: rgba(128, 128, 128, 0.384);
+}
+
+footer{
+    width: 100%;
+    background-color: rgba(128, 0, 128, 0.986);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-left: 0;
+}
+
+footer p{
+margin: 0;
+font: 20px;
+}
+}
+
+/* THIS IS THE END OF MOBILE SCREENS */
